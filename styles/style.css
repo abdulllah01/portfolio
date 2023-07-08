@@ -45,9 +45,11 @@ nav a{
     color:#474747;
 }
 .header{
-    background:url(../images/header_bg.png), #FFF8F3;;
+    background:url(../images/header_bg.png),url(../images/developer.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top left;
+    
+    
 }
 .banner{
     padding: 30px 30px 00px 150px;
@@ -182,6 +184,7 @@ margin-top: 100px;
 }
 .footer-column{
     width: 50%;
+    
 }
 .social-links a{
     margin-right: 17px;
@@ -192,6 +195,5 @@ margin-top: 100px;
  margin-bottom: 24px;
  padding: 18px 30px;
  border: none;
- Your name
 color:  #757575;
 } 
