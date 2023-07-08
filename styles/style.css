@@ -68,7 +68,9 @@ main{
 max-width: 1140px;
 margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+}
 .banner-greeting{
     font-size: 45px;
     color: #474747;
@@ -110,6 +112,31 @@ line-height: normal;
 .about-info{
     text-align: center;
 }
+
+/* skill section  */
 .what{
     padding: 30px 150px;
+}
+
+.skill-container{
+
+  display: flex;
+  gap: 24px;  
+}
+.skill{
+    padding: 30px;
+   
+    box-shadow: 0px 0px 15px rgb(0, 0, 0,.07);
+    border-radius: 8px;
+    margin-right: 24px;
+}
+.skill-description{
+    color:  #757575;
+}
+/* resume ssection */
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
