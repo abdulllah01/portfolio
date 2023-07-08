@@ -97,7 +97,7 @@ font-weight: 700;
 line-height: normal;
 }
 
-.section-decription{
+.section-description{
     color:#757575;
     font-size: 18px;
     text-align: center;
@@ -109,4 +109,7 @@ line-height: normal;
 }
 .about-info{
     text-align: center;
+}
+.what{
+    padding: 30px 150px;
 }
