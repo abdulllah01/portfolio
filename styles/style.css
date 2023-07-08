@@ -128,7 +128,7 @@ line-height: normal;
    
     box-shadow: 0px 0px 15px rgb(0, 0, 0,.07);
     border-radius: 8px;
-    margin-right: 24px;
+    margin-right: 20px;
 }
 .skill-description{
     color:  #757575;
@@ -139,4 +139,35 @@ line-height: normal;
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+.resume-container{
+    display:flex;
+    gap: 60px ;
+    justify-content: center;
+}
+.resume-item-title{
+color: #474747;
+font-size: 20px;
+font-weight: 700;
+
+}
+.resume-item-institute{
+color:#757575;
+font-size: 15px;
+font-weight: 600;
+
+}
+.resume-item{
+    margin-bottom: 30PX;
+}
+.resume-item-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.Download-CV{
+    text-align: center;
+    margin-top: 30px;
 }
