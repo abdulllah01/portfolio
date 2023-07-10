@@ -148,6 +148,7 @@ line-height: normal;
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 7px;
 }
 .resume-container{
     display:flex;
@@ -160,12 +161,14 @@ line-height: normal;
 color: #474747;
 font-size: 20px;
 font-weight: 700;
+margin-bottom: 10px;
 
 }
 .resume-item-institute{
 color:#757575;
 font-size: 15px;
 font-weight: 600;
+c
 
 }
 .resume-item{
@@ -176,6 +179,7 @@ font-weight: 600;
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
+margin-bottom: 20px;
 }
 
 .Download-CV{
