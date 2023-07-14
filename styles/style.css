@@ -290,9 +290,13 @@ color:  #757575;
         background-image: none;
     }
 
-    nav ,nav>ul,.skill-container ,.resume-container,footer {
+    nav ,nav>ul,.skill-container ,.resume-container {
    flex-direction: column;
  
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
     }
     nav > ul{
         gap: 10px;
