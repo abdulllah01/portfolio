@@ -314,13 +314,14 @@ color:  #757575;
 
     .banner .profile-img{
         width: 100%;
+        
     
     }
     .banner-contant{
       width: 100%;
     }
     .banner{
-        padding: 10px;
+        padding: 0px;
     }
     .what ,.about{
         padding: 10px;
