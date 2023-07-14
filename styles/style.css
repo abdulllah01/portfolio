@@ -63,7 +63,7 @@ nav a{
     width: 500px;
 
 }
-.banner-contant{
+.banner-content{
 max-width: 500px;
 }
 .header-description{
@@ -83,7 +83,7 @@ main section{
     color: #474747;
     margin-bottom: 0%;
 }
-.banner-titile{
+.banner-title{
     font-size: 70px;
     font-weight: 700;
     margin-top: 0%;
@@ -142,7 +142,7 @@ line-height: normal;
 .skill-description{
     color:  #757575;
 }
-/* resume ssection */
+/* resume section */
 
 .resume-column-title{
     color: #474747;
@@ -186,10 +186,10 @@ margin-bottom: 20px;
     text-align: center;
     margin-top: 30px;
 }
-/* protfolio section  */
+/* portfolio section  */
 
 
-.protpolio{
+.portfolio{
     height: auto;
     width: 100%;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ margin-bottom: 20px;
     align-items: center;
   
   }
-  .protpolio .box1{
+  .portfolio .box1{
     overflow: hidden;
     margin-left: 30px;
     margin-top: 30px;
@@ -210,44 +210,44 @@ margin-bottom: 20px;
   justify-content: center;
   }
   
-  .protpolio .box1 img {
+  .portfolio .box1 img {
     transition: 3s;
     width:100%;
   
   }
-  .protpolio .box1:hover img {
+  .portfolio .box1:hover img {
     transform: translateY(-63%);
   
   }
   
   
   
-  .protpolio .box1:nth-child(3):hover img {
+  portfolio .box1:nth-child(3):hover img {
     transform: translateY(-64%);
   
   }
   
-  .protpolio .box1:nth-child(4):hover img {
+  .portfolio .box1:nth-child(4):hover img {
     transform: translateY(-60%);
   
   }
   
-  .protpolio .box1:nth-child(5):hover img {
+  .portfolio .box1:nth-child(5):hover img {
     transform: translateY(-66.56%);
   
   }
   
-  .protpolio .box1:nth-child(6):hover img {
+  .portfolio .box1:nth-child(6):hover img {
     transform: translateY(-63%);
   
   }
   
-  .protpolio .box1:nth-child(7):hover img {
+  .portfolio .box1:nth-child(7):hover img {
     transform: translateY(-60%);
   
   }
   
-  .protpolio .box1:nth-child(8):hover img {
+  .portfolio .box1:nth-child(8):hover img {
     transform: translateY(-64%);
   
   }
@@ -292,13 +292,13 @@ color:  #757575;
         background-image: none;
     }
 
-    nav ,nav>ul,.skill-container ,.resume-container ,.protpolio{
+    nav ,nav>ul,.skill-container ,.resume-container ,.portfolio{
    flex-direction: column;
- 
+     padding: 10px 10px 0px 20px ;
     }
     footer{
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
     }
     nav > ul{
         gap: 10px;
@@ -309,20 +309,23 @@ color:  #757575;
      
     }
     .banner{
-        flex-direction: column;  
+        flex-direction: column; 
+        padding: 10px 10px 0px 20px ; 
     }
+    /* .section-description{
+        text-align: justify;
+    } */
 
     .banner .profile-img{
         width: 100%;
+        margin-top: 20px;
         
     
     }
-    .banner-contant{
+    .banner-content{
       width: 100%;
     }
-    .banner{
-        padding: 0px;
-    }
+    
     .what ,.about{
         padding: 10px;
     }
