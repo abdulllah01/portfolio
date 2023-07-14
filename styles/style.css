@@ -187,6 +187,8 @@ margin-bottom: 20px;
     margin-top: 30px;
 }
 /* protfolio section  */
+
+
 .protpolio{
     height: auto;
     width: 100%;
@@ -290,7 +292,7 @@ color:  #757575;
         background-image: none;
     }
 
-    nav ,nav>ul,.skill-container ,.resume-container {
+    nav ,nav>ul,.skill-container ,.resume-container ,.protpolio{
    flex-direction: column;
  
     }
@@ -300,6 +302,10 @@ color:  #757575;
     }
     nav > ul{
         gap: 10px;
+     
+    }
+    .skill-container{
+        gap: 20px;
      
     }
     .banner{
