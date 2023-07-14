@@ -49,7 +49,7 @@ nav a{
     background:url(../images/header_bg.png),url(../images/developer.png), #FFF8F3;
     background-repeat: no-repeat;
     background-position: bottom right , 25px center;
-    background-size: 0px , 85px;
+    background-size: 800px , 85px;
     
     
 }
@@ -93,13 +93,13 @@ main section{
 .about{
     padding: 70px;
     border-radius: 10px;
-background: #FFF8F3;
-margin: 130px 100px
+    background: #FFF8F3;
+    margin: 130px 100px
 
 }
 
 .section-title{
-    margin-bottom: 30px;
+margin-bottom: 30px;
 color:#181818;
 text-align: center;
 font-size: 35px;
@@ -154,7 +154,7 @@ line-height: normal;
     display:flex;
     gap: 60px ;
     justify-content: center;
-     padding: 0px 60px 0px 60px;
+    padding: 0px 60px 0px 60px;
    
 }
 .resume-item-title{
@@ -168,7 +168,7 @@ margin-bottom: 10px;
 color:#757575;
 font-size: 15px;
 font-weight: 600;
-c
+
 
 }
 .resume-item{
@@ -188,7 +188,7 @@ margin-bottom: 20px;
 }
 /* protfolio section  */
 .protpolio{
-    height: auto
+    height: auto;
     width: 100%;
     flex-wrap: wrap;
     display: flex;
@@ -271,10 +271,67 @@ margin-top: 100px;
     margin-right: 17px;
 }
 .contact input[type="text"] ,input[type="email"] , textarea  {
-    width: 451px;
+    width: 100%;
  display: block;
  margin-bottom: 24px;
  padding: 18px 30px;
  border: none;
 color:  #757575;
 } 
+
+.hide{
+    display: none;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+
+    nav ,nav>ul,.skill-container ,.resume-container,footer {
+   flex-direction: column;
+ 
+    }
+    nav > ul{
+        gap: 10px;
+     
+    }
+    .banner{
+        flex-direction: column;  
+    }
+
+    .banner .profile-img{
+        width: 100%;
+    
+    }
+    .banner-contant{
+      width: 100%;
+    }
+    .banner{
+        padding: 10px;
+    }
+    .what ,.about{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+        
+    }
+    .about{
+        margin: 10px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about-info{
+        margin-bottom: 20px;
+    }
+
+    .contact input[type="text"] ,input[type="email"] , textarea  {
+        width: 78%;
+     
+    } 
+    
+}
