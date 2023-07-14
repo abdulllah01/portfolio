@@ -46,7 +46,7 @@ nav a{
     color:#474747;
 }
 .header{
-    background:url(../images/header_bg.png),url(../images/developer.png), #FFF8F3;
+    background:url(../images/header_bg.png),url(images/developer.png), #FFF8F3;
     background-repeat: no-repeat;
     background-position: bottom right , 25px center;
     background-size: 800px , 85px;
