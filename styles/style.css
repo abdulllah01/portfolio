@@ -1,7 +1,7 @@
 *{
 margin: 0%;
 font-family: 'Open Sans', sans-serif;
-
+scroll-behavior: smooth;
 }
 .text-primary{
     color: #FD6E0A;
@@ -19,8 +19,12 @@ font-family: 'Open Sans', sans-serif;
     nav{
         display: flex;
         align-items: center;
-        margin: 0px 150px;
+        margin: 0px 100px;
         justify-content: space-between;
+       
+        
+        
+        
         
     }
 
@@ -37,14 +41,34 @@ font-family: 'Open Sans', sans-serif;
         align-items: center;
      
     }
+
+        nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 2px;
+        background: #FD6E0A;
+        display: block;
+        transition: 0.4s linear;
+        border-radius: 5px;
+      }
+      
+      nav ul li a:hover::after{
+        width: 100%;
+      }
+      
+      nav ul li a:hover{
+        color: #FD6E0A;
+      }
     nav li{
        list-style: none;
-       margin-right: 50px;
+       margin-right: 20px;
+       text-transform: uppercase;
     }
 nav a{
     text-decoration: none;
     color:#474747;
 }
+
 .header{
     background:url(../images/header_bg.png),url(../images/developer.png), #FFF8F3;
     background-repeat: no-repeat;
@@ -84,6 +108,7 @@ main section{
     margin-bottom: 0%;
 }
 .banner-title{
+    color: #3d3d3d;
     font-size: 70px;
     font-weight: 700;
     margin-top: 0%;
@@ -94,13 +119,13 @@ main section{
     padding: 70px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 100px
+    margin: 130px 60px
 
 }
 
 .section-title{
 margin-bottom: 30px;
-color:#181818;
+color: #3d3d3d;
 text-align: center;
 font-size: 35px;
 font-weight: 700;
@@ -304,6 +329,7 @@ color:  #757575;
         gap: 10px;
      
     }
+    
     .skill-container{
         gap: 20px;
      
